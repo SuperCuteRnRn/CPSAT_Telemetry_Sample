@@ -1,0 +1,639 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_INITIAL_PKT",
+  "bytes": 168,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818122,
+  "spacecraft_subseconds_raw": 33981,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": "INITIAL_DATA",
+      "note": null
+    },
+    "SW_VERSION": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_CMD_CNT": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_ERR_CNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MODE_INFO": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_FRAME": {
+      "raw": 254,
+      "value": 254,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_STATUS_PACKED": {
+      "raw": 255,
+      "value": "0xFF | A1=1/1 A2=1/1 A3=1/1 A4=1/1 (S=stow,B=burn)",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INITIAL_FLAGS_PACKED": {
+      "raw": 12,
+      "value": 12,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOLAR_DEPLOY_FLAGS": {
+      "raw": 207,
+      "value": "0xCF",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ELEV_BAND_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": "i",
+      "state": null,
+      "note": null
+    },
+    "RS_ENCODE_FRAMES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LEOP_NEXT_PHASE_IDX": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GS_ELEV_X100": {
+      "raw": -32768,
+      "value": -327.68,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BUILD_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_VERIFY_PACKED": {
+      "raw": 7,
+      "value": 7,
+      "units": "4:3",
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_COUNT": {
+      "raw": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "value": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_COUNT_B": {
+      "raw": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "value": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_BURN_BUDGET_PCT": {
+      "raw": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "value": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_LAST_DEPLOY_RESULT": {
+      "raw": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_MISSION_REJECT_REASON": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "BATTGATE_REJECT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BCN_SEQ_LEN": {
+      "raw": 10,
+      "value": 10,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BCN_SEQ": {
+      "raw": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DISK_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NORMAL",
+      "note": null
+    },
+    "ELEV_BAND_ARM": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_MON_STATE": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": "ARMED",
+      "note": null
+    },
+    "V_BATTERY_VOLTAGE": {
+      "raw": 877,
+      "value": 7.8869,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BATTERY_CURRENT": {
+      "raw": 33,
+      "value": 483.871,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_TEMPERATURE": {
+      "raw": 65535,
+      "value": -19202.13,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_TEMPERATURE_B": {
+      "raw": 65535,
+      "value": -19202.13,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_STATUS_A_RAW": {
+      "raw": 65535,
+      "value": "0xFFFF | A1=1/1/1 A2=1/1/1 A3=1/1/1 A4=1/1/1 (S=stow,T=tout,B=burn) | IG=1 INDB=1 ARM=1",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_STATUS_B_RAW": {
+      "raw": 65535,
+      "value": "0xFFFF | A1=1/1/1 A2=1/1/1 A3=1/1/1 A4=1/1/1 (S=stow,T=tout,B=burn) | IG=1 INDB=1 ARM=1",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_TIME": {
+      "raw": [
+        65535,
+        65535,
+        65535,
+        65535
+      ],
+      "value": [
+        65535,
+        65535,
+        65535,
+        65535
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_DEPLOY_TIME_B": {
+      "raw": [
+        65535,
+        65535,
+        65535,
+        65535
+      ],
+      "value": [
+        65535,
+        65535,
+        65535,
+        65535
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_COMMAND_COUNTER": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_CMD_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LEOP_RECURRING_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_DL_LAST_DURATION_S": {
+      "raw": 0,
+      "value": 0,
+      "units": "s",
+      "state": null,
+      "note": null
+    },
+    "CF_DL_LAST_PDU_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_DL_TOTAL_SESSIONS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_DL_STUCK_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_INTENT_MASK": {
+      "raw": 1408,
+      "value": "0x0580",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_DRIFT_MASK": {
+      "raw": 0,
+      "value": "0x0000",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_DRIFT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_SYNC_REJECT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_DRIFT_SEC_CLAMPED": {
+      "raw": 32767,
+      "value": 32767,
+      "units": "s",
+      "state": null,
+      "note": null
+    },
+    "MISSION_EXECUTE_TOTAL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ORB_TLE_AGE_MIN": {
+      "raw": 0,
+      "value": 0,
+      "units": "min",
+      "state": null,
+      "note": null
+    },
+    "ORB_SAT_LAT_X100": {
+      "raw": 0,
+      "value": 0.0,
+      "units": "deg",
+      "state": null,
+      "note": null
+    },
+    "ORB_SAT_LON_X100": {
+      "raw": 0,
+      "value": 0.0,
+      "units": "deg",
+      "state": null,
+      "note": null
+    },
+    "ORB_SAT_ALT_KM_X10": {
+      "raw": 0,
+      "value": 0.0,
+      "units": "km",
+      "state": null,
+      "note": null
+    },
+    "SC_RTS_EXEC_BITMAP": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_UP_RECV_PDU": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_UP_RECV_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "REBOOT_REMAINING_MIN": {
+      "raw": 2875,
+      "value": 2875,
+      "units": "min",
+      "state": null,
+      "note": null
+    },
+    "SCH_MISSED_TICK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "HS_APPMON_ENABLES": {
+      "raw": 16777215,
+      "value": "0x00FFFFFF",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INITIAL_SPARE1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ORB_ACTIVE_SLOT": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ORB_ECLIPSE_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SC_NUM_RTS_ACTIVE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SC_RTS_ACTIVE_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LC_STATE": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": "ACTIVE",
+      "note": null
+    },
+    "LC_PASSIVE_RTS_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "HS_STATUS_FLAGS": {
+      "raw": 31,
+      "value": "0x1F",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_BELOW_SAFE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_BELOW_CRIT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_ABOVE_NORM_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_CRIT_RECOVER_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_DAILY_CRIT_RECOVER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_LATCH_BITS": {
+      "raw": 0,
+      "value": "0x00",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOLAR_ADC_L": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOLAR_ADC_R": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_TEMP_PKT",
+  "bytes": 112,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818162,
+  "spacecraft_subseconds_raw": 33977,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 3,
+      "value": 3,
+      "units": null,
+      "state": "TEMP_DATA",
+      "note": null
+    },
+    "GS_ELEV_DEG_S8": {
+      "raw": -128,
+      "value": -128,
+      "units": "deg",
+      "state": null,
+      "note": null
+    },
+    "GS_ELEV_PHASE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "UNK",
+      "note": null
+    },
+    "CPSAT_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PEDDING1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_MOTHERBOARD_TEMPERATURE": {
+      "raw": 796,
+      "value": 23.3075,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_DAUGHTERBOARD_TEMP": {
+      "raw": [
+        660,
+        660,
+        659,
+        658
+      ],
+      "value": [
+        660,
+        660,
+        659,
+        658
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_A_TEMP": {
+      "raw": 1011,
+      "value": 228.7104,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_B_TEMP": {
+      "raw": 1015,
+      "value": 230.696,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_A_TEMP": {
+      "raw": 1013,
+      "value": 229.7032,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_B_TEMP": {
+      "raw": 1017,
+      "value": 231.6888,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_A_TEMP": {
+      "raw": 1015,
+      "value": 230.696,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_B_TEMP": {
+      "raw": 1013,
+      "value": 229.7032,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_A_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_B_TEMP": {
+      "raw": 667,
+      "value": 57.9488,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_A_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_A_TEMP": {
+      "raw": 668,
+      "value": 58.4452,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_MOTHERBOARD_TEMPERATURE": {
+      "raw": 811,
+      "value": 28.894,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_DAUGHTERBOARD_TEMP": {
+      "raw": 803,
+      "value": 25.9145,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_TEMP": {
+      "raw": 65535,
+      "value": 65535,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POWER_AMPLIFIER_TEMPERATURE": {
+      "raw": 2242,
+      "value": 23.6917,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LOCAL_OSCILLATOR_TEMPERATURE": {
+      "raw": 2231,
+      "value": 24.5353,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OBC_TEMP_DC": {
+      "raw": 256,
+      "value": 25.6,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_FRAME": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MTQ_TEMP_CORE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MTQ_TEMP_ONBOARD": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_BAT_MOTHER_PEAK": {
+      "raw": 797,
+      "value": 797,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_BAT_MOTHER_MIN": {
+      "raw": 796,
+      "value": 796,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_BAT_DAUGHTER_AVG_PEAK": {
+      "raw": 660,
+      "value": 660,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_BAT_DAUGHTER_AVG_MIN": {
+      "raw": 659,
+      "value": 659,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_EPS_MOTHER_PEAK": {
+      "raw": 812,
+      "value": 812,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_EPS_MOTHER_MIN": {
+      "raw": 809,
+      "value": 809,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_PA_PEAK": {
+      "raw": 2250,
+      "value": 2250,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_OVERTEMP_EDGE_COUNT": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_HK_STALE_TICKS": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_PAD": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ICM_TEMP": {
+      "raw": 1776,
+      "value": 25.4345,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTM_TEMP": {
+      "raw": 132,
+      "value": 28.5294,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMU_TEMP_PAD": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

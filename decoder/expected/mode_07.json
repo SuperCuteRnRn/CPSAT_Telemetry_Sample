@@ -1,0 +1,661 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_ADCS_PKT",
+  "bytes": 232,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818442,
+  "spacecraft_subseconds_raw": 34074,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 7,
+      "value": 7,
+      "units": null,
+      "state": "ADCS_DATA",
+      "note": null
+    },
+    "SPARE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "COMMAND_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CMD_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR1_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR1_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR1_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR2_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR2_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR2_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR3_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR3_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_DSS_DIR3_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DSS_PAYLOAD_PADDING1": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PADDING_GPS": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_SOLUTION_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_PADDING1": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_JD_INT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_JD_FRAC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_POS_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_POS_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_POS_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_VEL_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_VEL_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_PAYLOAD_GPS_VEL_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_PWM_DUTY": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_DIRECTION": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_PADDING": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_CURRENT": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_MOMENTUM": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_TEMP_CORE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PAYLOAD_MTQ_TEMP_ONBOARD": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PAYLOAD_RW_WHEEL_SPEEDX": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PAYLOAD_RW_WHEEL_SPEEDY": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PAYLOAD_RW_WHEEL_SPEEDZ": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PAYLOAD_PADDING1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ST_SECONDS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ST_MILLI_SECONDS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_WHEEL_SPEED_PEAK_ABS": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": "xyz",
+      "state": null,
+      "note": null
+    },
+    "ADCS_GYRO_RATE_PEAK_ABS": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": "xyz",
+      "state": null,
+      "note": null
+    },
+    "ADCS_MTQ_CURRENT_PEAK_ABS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MTQ_TEMP_CORE_PEAK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MTQ_TEMP_ONBOARD_PEAK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_HK_STALE_TICKS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_HK_STALE_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "FRESH",
+      "note": null
+    },
+    "BEACON_RX_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_ECEF_P_SAT": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_ECEF_V_SAT": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_SAT_W_ECI2_SAT": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_SAT_MAGNETIC": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_SAT_U_SUN": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_CTRL_DIPOLE": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_IS_ECLIPSE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_MODE_2": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_STATUS": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_DSS_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_GPS_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_MTQ_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_RW_FLAG": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_ST_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_GYRO_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_MTM_FLAG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_PADDING": {
+      "raw": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_SAFING_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "IDLE",
+      "note": null
+    },
+    "ADCS_SAFING_PURPOSE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "ADCS_SAFING_PAD": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

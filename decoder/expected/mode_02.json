@@ -1,0 +1,694 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_COMMON_PKT",
+  "bytes": 232,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818142,
+  "spacecraft_subseconds_raw": 33463,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": "COMMON_DATA",
+      "note": null
+    },
+    "BEACON_CMD_CNT": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_ERR_CNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_AD_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_AC_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "TASK_PROCESSING",
+      "note": null
+    },
+    "GPS_POWER_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CF_DL_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SW_VERSION": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_EPS_AUTO_SW_RESET": {
+      "raw": 226,
+      "value": 226,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_BAT_AUTO_SW_RESET": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MODE_INFO": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BEACON_FRAME": {
+      "raw": 18,
+      "value": 18,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SRC_STALE_BITS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PWM_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PWM_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ_PWM_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPU_THROUGHPUT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BATTERY_VOLTAGE": {
+      "raw": 877,
+      "value": 7.8869,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BATTERY_CURRENT": {
+      "raw": 34,
+      "value": 498.5337,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BAT_5_V_VOLTAGE": {
+      "raw": 858,
+      "value": 5.0322,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BAT_5_V_CURRENT": {
+      "raw": 5,
+      "value": 6.6377,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BAT_3V3_VOLTAGE": {
+      "raw": 771,
+      "value": 3.3238,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "V_BAT_3V3_CURRENT": {
+      "raw": 7,
+      "value": 9.2928,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_WHEEL_VEL_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_WHEEL_VEL_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_WHEEL_VEL_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GYRO_W_X": {
+      "raw": 50,
+      "value": 0.5,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GYRO_W_Y": {
+      "raw": 110,
+      "value": 1.1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GYRO_W_Z": {
+      "raw": -105,
+      "value": -1.05,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTM_MAG_X": {
+      "raw": 966,
+      "value": 9.66,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTM_MAG_Y": {
+      "raw": 791,
+      "value": 7.91,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTM_MAG_Z": {
+      "raw": 566,
+      "value": 5.66,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACCEL_X": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACCEL_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACCEL_Z": {
+      "raw": 102,
+      "value": 102,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_GYRO_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_GYRO_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_GYRO_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MAG_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MAG_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_MAG_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "STORAGE_SPACE_STATUS": {
+      "raw": 144780,
+      "value": 144780,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ON_BOARD_TIME": {
+      "raw": 1475817869,
+      "value": 1475817869,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_TRS_UPTIME": {
+      "raw": 289,
+      "value": 289,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_RCV_UPTIME": {
+      "raw": 289,
+      "value": 289,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_QUAT_W": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_QUAT_X": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_QUAT_Y": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_QUAT_Z": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_POS_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_POS_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_POS_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_VEL_X": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_VEL_Y": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GPS_VEL_Z": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_MODE_CURRENT": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": "SAFE",
+      "note": null
+    },
+    "BATT_MODE_RECOMMENDED": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": "SAFE",
+      "note": null
+    },
+    "CF_DL_LAST_EXIT_REASON": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_VOLTAGE_SOURCE": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": "BAT",
+      "note": null
+    },
+    "BATT_LAST_KNOWN_MV": {
+      "raw": 7886,
+      "value": 7886,
+      "units": "Millivolts",
+      "state": null,
+      "note": null
+    },
+    "STATUS_SUMMARY": {
+      "raw": 0,
+      "value": "0x00",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOC_PCT": {
+      "raw": 71,
+      "value": 71,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVS_CNT_DEBUG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVS_CNT_INFO": {
+      "raw": 98,
+      "value": 98,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVS_CNT_ERROR": {
+      "raw": 30,
+      "value": 30,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVS_CNT_CRITICAL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RECENT_ERR_EVENTS": {
+      "raw": [
+        4,
+        3,
+        11,
+        0,
+        170,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        163,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        184,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        177,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        4,
+        3,
+        11,
+        0,
+        170,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        163,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        184,
+        0,
+        0,
+        0,
+        4,
+        3,
+        11,
+        0,
+        177,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CRITICAL_MSG_SNIPPET": {
+      "raw": "",
+      "value": "",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CRITICAL_APP_EVENT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CRITICAL_TICK_OFFSET": {
+      "raw": 275,
+      "value": 275,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_APP_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_FAULT_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_LAST_DRV_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_APP_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_FAULT_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_BATT_AUTOMGMT_ENABLED": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_BATT_VOLTAGE_SOURCE_V2": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOC_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "I2_C_ERROR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_ERROR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_BAT_HK_STALE_TICKS": {
+      "raw": 4,
+      "value": 4,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATT_EPS_HK_STALE_TICKS": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_CMD_CNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_ERR_CNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CPSAT_BOOT_COUNT": {
+      "raw": 9,
+      "value": 9,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

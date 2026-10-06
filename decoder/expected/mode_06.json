@@ -1,0 +1,730 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_TRS_PKT",
+  "bytes": 224,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818222,
+  "spacecraft_subseconds_raw": 33971,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 6,
+      "value": 6,
+      "units": null,
+      "state": "TRS_DATA",
+      "note": null
+    },
+    "RS_ENCODE_FRAMES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRX_RECONFIG_CNT8": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SPARE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INSTANTANEOUS_DOPPLER_OFFSET": {
+      "raw": 1450,
+      "value": 55317.5,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INSTANTANEOUS_SIGNAL_STRENGTH": {
+      "raw": 1655,
+      "value": -849.5,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INSTANTANEOUS_RF_REFLECTED_POWER": {
+      "raw": 71,
+      "value": 0.2968,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "INSTANTANEOUS_RF_FORWARD_POWER": {
+      "raw": 40,
+      "value": 0.0942,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POWER_BUS_VOLTAGE": {
+      "raw": 1614,
+      "value": 7.8763,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TOTAL_SUPPLY_CURRENT": {
+      "raw": 309,
+      "value": 97.3968,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_CURRENT": {
+      "raw": 67,
+      "value": 21.1184,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RECEIVER_CURRENT": {
+      "raw": 586,
+      "value": 184.7072,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POWER_AMPLIFIER_CURRENT": {
+      "raw": 1,
+      "value": 0.3152,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POWER_AMPLIFIER_TEMPERATURE": {
+      "raw": 2244,
+      "value": 23.5383,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LOCAL_OSCILLATOR_TEMPERATURE": {
+      "raw": 2231,
+      "value": 24.5353,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_INSTANTANEOUS_DOPPLER_OFFSET": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_INSTANTANEOUS_SIGNAL_STRENGTH": {
+      "raw": 0,
+      "value": -22.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_STATUS_IDLE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_STATUS_BEACON": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_STATUS_RATE": {
+      "raw": 3,
+      "value": 3,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_STATUS_DUMMY": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_OVERTEMP_FLAG": {
+      "raw": 12,
+      "value": 12,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "COMMAND_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CMD_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RECEIVER_UPTIME": {
+      "raw": 366,
+      "value": 366,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSMITTER_UPTIME": {
+      "raw": 366,
+      "value": 366,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_PLL_LOCK_ERR": {
+      "raw": 366,
+      "value": 366,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRS_PLL_LOCK_ERR": {
+      "raw": 268,
+      "value": 268,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_LAST_RESET_CAUSE": {
+      "raw": 171,
+      "value": 171,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRS_LAST_RESET_CAUSE": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RESET_CAUSE_SPARE": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SEND_FRAME_FAIL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SPARE_ALIGN": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_PLL_FREQ_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRS_PLL_FREQ_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_RSSI_PEAK": {
+      "raw": 2262,
+      "value": 2262,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_RSSI_MIN": {
+      "raw": 1601,
+      "value": 1601,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_DOPPLER_PEAK_ABS": {
+      "raw": 1530,
+      "value": 1530,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_RF_FWD_PEAK": {
+      "raw": 3627,
+      "value": 3627,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_RF_REFL_PEAK": {
+      "raw": 961,
+      "value": 961,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_PA_TEMP_PEAK": {
+      "raw": 2250,
+      "value": 2250,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_PLL_LOCK_ERR_PEAK_RCV": {
+      "raw": 366,
+      "value": 366,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_PLL_LOCK_ERR_PEAK_TRS": {
+      "raw": 268,
+      "value": 268,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_HK_STALE_TICKS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_PAD1": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_FREQUENCY_KHZ": {
+      "raw": 145835,
+      "value": 145835,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRS_FREQUENCY_KHZ": {
+      "raw": 437265,
+      "value": 437265,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TO_CALLSIGN": {
+      "raw": "\u0011\ufffd\u0006",
+      "value": "\u0011\ufffd\u0006",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FROM_CALLSIGN": {
+      "raw": "\u0011\ufffd\u0006",
+      "value": "\u0011\ufffd\u0006",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_FRAME_NUM": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "P9B_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_OVERTEMP_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_OVERTEMP_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PCB_TEMPERATURE": {
+      "raw": 2232,
+      "value": 2232,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PCB_TEMP_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSPONDER_RSSI_RAW": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_TRANS_REFLECTED_RAW": {
+      "raw": 985,
+      "value": 985,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_TRANS_FORWARD_RAW": {
+      "raw": 3428,
+      "value": 3428,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "P18_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RECEIVER_ERROR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "I2C_ERROR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_UPLINK_RECV_TIME": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TOTAL_RX_FRAME_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TOTAL_TX_FRAME_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TX_MODE_CHANGE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "P19_RESERVED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_OVERTEMP_LAST_TIME": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "HIGH_REFLECTED_LAST_TIME": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RCV_RESET_LAST_TIME": {
+      "raw": 1475817868,
+      "value": 1475817868,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRS_RESET_LAST_TIME": {
+      "raw": 1475817868,
+      "value": 1475817868,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RF_FORWARD_PEAK": {
+      "raw": 3627,
+      "value": 3627,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_CURRENT_PEAK": {
+      "raw": 3150,
+      "value": 3150,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "REFLECTED_PEAK": {
+      "raw": 961,
+      "value": 961,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_TEMP_PEAK": {
+      "raw": 2250,
+      "value": 2250,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PA_TEMP_MIN": {
+      "raw": 2238,
+      "value": 2238,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LO_TEMP_PEAK": {
+      "raw": 2244,
+      "value": 2244,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LO_TEMP_MIN": {
+      "raw": 2231,
+      "value": 2231,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PCB_TEMP_PEAK": {
+      "raw": 2245,
+      "value": 2245,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PCB_TEMP_MIN": {
+      "raw": 2232,
+      "value": 2232,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RSSI_PEAK": {
+      "raw": 2262,
+      "value": 2262,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RSSI_MIN": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DOPPLER_PEAK": {
+      "raw": 1530,
+      "value": 1530,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DOPPLER_MIN": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PADDING_AUTO_1": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "I2C_TOTAL_COUNT": {
+      "raw": 274,
+      "value": 274,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PCM_RESET_REQUEST_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TX_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "UNKNOWN",
+      "note": null
+    },
+    "LAST_FREQ_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSPONDER_RSSI_THRESHOLD": {
+      "raw": 2500,
+      "value": 2500,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSPONDER_INPUT_FREQ_KHZ_LO": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TRANSPONDER_INPUT_FREQ_KHZ_HI": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CI_INGEST_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CI_INGEST_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RX_BUFFER_FRAME_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TX_BUFFER_FREE_SLOTS": {
+      "raw": 39,
+      "value": 39,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IDLE_WINDOW_ENABLE": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": "ON",
+      "note": null
+    },
+    "IDLE_WINDOW_HOLD_S": {
+      "raw": 3,
+      "value": 3,
+      "units": "s",
+      "state": null,
+      "note": null
+    },
+    "TRS_EXPN_PAD": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": {
+    "recorded_modes": 10,
+    "python_field_comparisons": 4356,
+    "kaitai_raw_field_comparisons": 4716,
+    "kaitai_converted_values": 1122,
+    "synthetic_packets": 50,
+    "rejected_frames": 1994,
+    "trs_status_bytes": 256
+  },
+  "schema_fields": 786,
+  "kaitai_compiler": "0.10.0",
+  "kaitai_runtime": "0.10",
+  "python": "3.12.10",
+  "upstream_commit": "813bbd0c549eb68fa20851c5407b16fbb245efbe",
+  "upstream_entrypoint": "decode_frame_to_fields(cpsat, frame)",
+  "comparison": "Exact Python raw/value/unit/state fields; exact Kaitai raw values. Kaitai numeric conversions retain full precision, compared within half the documented display rounding step.",
+  "limitations": [
+    "Indoor ground-test samples, not in-orbit observations.",
+    "Synthetic vectors are explicitly separate from recorded samples.",
+    "BCN schema agreement does not establish physical sensor calibration.",
+    "Mode 06 payload call-sign fields contain non-ASCII bytes; original octets are preserved and mission interpretation remains to be confirmed.",
+    "SatNOGS CI, merge request review and production deployment have not been performed."
+  ]
+}

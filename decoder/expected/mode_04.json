@@ -1,0 +1,511 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_EPS1_PKT",
+  "bytes": 156,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818182,
+  "spacecraft_subseconds_raw": 34504,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 4,
+      "value": 4,
+      "units": null,
+      "state": "EPS1_DATA",
+      "note": null
+    },
+    "EPS_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_EPS_AUTO_SW_RESET_COUNT": {
+      "raw": 226,
+      "value": 226,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_EPS_W_RESET_COUNT": {
+      "raw": 15,
+      "value": 15,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PEDDING1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_BOARD_STATUS": {
+      "raw": 0,
+      "value": "0x0000",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_LAST_MOTHER_ERROR_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_LAST_DAUGHTER_ERROR_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_PDM_ACTUAL_STATE": {
+      "raw": 704,
+      "value": "0x02C0",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_PDM_EXPECTED_STATE": {
+      "raw": 704,
+      "value": "0x02C0",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_PDM_INITIAL_STATE": {
+      "raw": 128,
+      "value": "0x0080",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BCR_OUTPUT_CURRENT": {
+      "raw": 61,
+      "value": 0.8944,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BCR_OUTPUT_VOLTAGE": {
+      "raw": 881,
+      "value": 7.923,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_DRAW_3_V3_CURRENT": {
+      "raw": 20,
+      "value": 0.0266,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_DRAW_5_V_CURRENT": {
+      "raw": 16,
+      "value": 0.0212,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_12_V_BUS_CURRENT": {
+      "raw": 2,
+      "value": 0.0041,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_12_V_BUS_VOLTAGE": {
+      "raw": 892,
+      "value": 12.0331,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_BAT_CURRENT": {
+      "raw": 6,
+      "value": 0.0409,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_BAT_VOLTAGE": {
+      "raw": 875,
+      "value": 7.8558,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_5_V_BUS_CURRENT": {
+      "raw": 5,
+      "value": 0.0341,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_5_V_BUS_VOLTAGE": {
+      "raw": 860,
+      "value": 5.0439,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_3_V3_BUS_CURRENT": {
+      "raw": 91,
+      "value": 0.6206,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_OUTPUT_3_V3_BUS_VOLTAGE": {
+      "raw": 774,
+      "value": 3.3367,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOLAR_PANEL_PDM_SW_1_VOLTAGE": {
+      "raw": 2,
+      "value": 0.027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PDM_SW_2_VOLTAGE": {
+      "raw": 2,
+      "value": 0.027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_PDM_SW_3_VOLTAGE": {
+      "raw": 2,
+      "value": 0.018,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_PDM_SW_4_VOLTAGE": {
+      "raw": 2,
+      "value": 0.018,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DUMMY_PDM_SW_5_VOLTAGE": {
+      "raw": 2,
+      "value": 0.0117,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ST_PDM_SW_6_VOLTAGE": {
+      "raw": 2,
+      "value": 0.0117,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ5V_PDM_SW_7_VOLTAGE": {
+      "raw": 861,
+      "value": 5.0498,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_PDM_SW_8_VOLTAGE": {
+      "raw": 773,
+      "value": 3.3324,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DUMMY_PDM_SW_9_VOLTAGE": {
+      "raw": 15,
+      "value": 0.0647,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ3V_PDM_SW_10_VOLTAGE": {
+      "raw": 774,
+      "value": 3.3367,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOLAR_PANEL_PDM_SW_1_CURRENT": {
+      "raw": 2,
+      "value": 0.0027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RW_PDM_SW_2_CURRENT": {
+      "raw": 2,
+      "value": 0.0027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_PDM_SW_3_CURRENT": {
+      "raw": 2,
+      "value": 0.0125,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_PDM_SW_4_CURRENT": {
+      "raw": 2,
+      "value": 0.0125,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DUMMY_PDM_SW_5_CURRENT": {
+      "raw": 2,
+      "value": 0.0027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ST_PDM_SW_6_CURRENT": {
+      "raw": 2,
+      "value": 0.0027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ5V_PDM_SW_7_CURRENT": {
+      "raw": 3,
+      "value": 0.004,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANT_PDM_SW_8_CURRENT": {
+      "raw": 6,
+      "value": 0.008,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DUMMY_PDM_SW_9_CURRENT": {
+      "raw": 2,
+      "value": 0.0027,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MTQ3V_PDM_SW_10_CURRENT": {
+      "raw": 3,
+      "value": 0.004,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_MOTHERBOARD_TEMP": {
+      "raw": 812,
+      "value": 29.2664,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_DAUGHTERBOARD_TEMP": {
+      "raw": 804,
+      "value": 26.2869,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_EPS_BROWN_RESET_COUNT": {
+      "raw": 84,
+      "value": 84,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "GET_EPS_MANUAL_RESET_COUNT": {
+      "raw": 23,
+      "value": 23,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_STATIC_VERSION": {
+      "raw": 2012,
+      "value": 2012,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_STATIC_CHECKSUM": {
+      "raw": 0,
+      "value": "0x0000",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_STATIC_FIRMWARE_REV": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_STATIC_WDT_PERIOD": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_PEAK_BUS_CURRENT": {
+      "raw": [
+        2,
+        5,
+        91,
+        6
+      ],
+      "value": [
+        2,
+        5,
+        91,
+        6
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_MIN_BAT_VOLTAGE": {
+      "raw": 875,
+      "value": 875,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_TBRD_MOTHER_MIN": {
+      "raw": 812,
+      "value": 812,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_TBRD_MOTHER_MAX": {
+      "raw": 812,
+      "value": 812,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_PDM_LCL_TRIP_COUNT": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_I2_C_STALE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_HK_TRACK_SPARE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PADDING_AUTO_1": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_ENERGY_OUTPUT_TOTAL": {
+      "raw": 5250,
+      "value": 5250,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_ENERGY_SOLAR_TOTAL": {
+      "raw": 53741,
+      "value": 53741,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SOC_PCT": {
+      "raw": 72,
+      "value": 72,
+      "units": "%",
+      "state": null,
+      "note": null
+    },
+    "SOC_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "OK",
+      "note": null
+    },
+    "PAD_TAIL": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

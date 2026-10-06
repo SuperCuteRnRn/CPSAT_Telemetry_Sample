@@ -1,0 +1,390 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_LD_PKT",
+  "bytes": 96,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818462,
+  "spacecraft_subseconds_raw": 33598,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 8,
+      "value": 8,
+      "units": null,
+      "state": "LD_DATA",
+      "note": null
+    },
+    "MOON_DIST_C256": {
+      "raw": 103,
+      "value": 376368,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MOON_VALID": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "APP_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "IDLE",
+      "note": null
+    },
+    "SEQ_STEP": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CMD_CC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CMD_RESULT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_ERR_CC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_ERR_DETAIL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_SEQ_FAIL_STEP": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_SEQ_FAIL_REASON": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_DRV_ERR_CODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_STATE_PACKED": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_STATE_PACKED_B": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MOON_ECI_X_X1E4": {
+      "raw": -8790,
+      "value": -0.879,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MOON_ECI_Y_X1E4": {
+      "raw": 4389,
+      "value": 0.4389,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POWER_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "OFF",
+      "note": null
+    },
+    "LD_SPARE1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_SPARE2": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACTIVE_SEQ_ID": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "COMM_FAIL_CONSECUTIVE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FAULT_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "LD_SPARE3": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SPARE0": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_CURRENT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMP_SETPOINT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACTIVATE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_RESP_MAX_MS": {
+      "raw": 0,
+      "value": 0,
+      "units": "Milliseconds",
+      "state": null,
+      "note": null
+    },
+    "UART_WRITE_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_READ_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_TIMEOUT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "NAK_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RETRY_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SEQ_FAIL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SEU_DETECT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SPARE1": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TEMPERATURE": {
+      "raw": 0.0,
+      "value": 195.6307,
+      "units": "Celsius",
+      "state": null,
+      "note": null
+    },
+    "PD_VOLTAGE": {
+      "raw": 0.0,
+      "value": 0.0,
+      "units": "Volts",
+      "state": null,
+      "note": null
+    },
+    "LAST_RX_SEC_AGO": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PAD_RX": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_CURRENT_PEAK_MA": {
+      "raw": 0,
+      "value": 0,
+      "units": "Milliamps",
+      "state": null,
+      "note": null
+    },
+    "LD_TEMP_PEAK_C10": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_TEMP_MIN_C10": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_FAULT_TRANSIENT_EDGES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_FAULT_PERMANENT_EDGES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_EDFA_ALARM_EDGES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LD_EXT_RESERVED": {
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_TOKEN_HOLDER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "OPT_TOKEN_SEQ": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PAD_TAIL": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

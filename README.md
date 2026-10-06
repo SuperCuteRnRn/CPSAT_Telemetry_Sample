@@ -4,6 +4,10 @@
 
 [Illustrated PDF](CPSat_BCN_Report.pdf) · [Web report](index.html)
 
+[BCN decoder and usage](decoder/README.md) · [Kaitai source](decoder/cpsat.ksy) · [Field definitions](decoder/FIELDS.md) · [Validation results](decoder/validation.json)
+
+The BCN decoder supports modes 1–10 and includes a standalone Python implementation and a Kaitai candidate tested with the SatNOGS field extraction API. It has not yet been submitted to or deployed by SatNOGS. The decoder documentation records the non-ASCII payload call-sign bytes found in the mode 06 sample.
+
 Ten beacon examples recorded during pre-launch indoor over-the-air ground tests of CPSat. These are not in-orbit observations. BCN modes 1 through 10 are included; no HK or command definitions are included.
 
 ## Radio and framing

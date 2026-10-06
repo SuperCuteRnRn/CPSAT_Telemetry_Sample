@@ -1,0 +1,810 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_LED_PKT",
+  "bytes": 202,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818482,
+  "spacecraft_subseconds_raw": 33982,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 9,
+      "value": 9,
+      "units": null,
+      "state": "LED_DATA",
+      "note": null
+    },
+    "RS_ENCODE_ERR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ELEV_BAND_ARM": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_FAULT_TRANSIENT_EDGES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_FAULT_PERMANENT_EDGES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PAD_AGG": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_RX_SEC_AGO": {
+      "raw": 0,
+      "value": 0,
+      "units": "Seconds",
+      "state": null,
+      "note": null
+    },
+    "BOARD_DATA_AGE_SEC": {
+      "raw": 65535,
+      "value": 65535,
+      "units": "Seconds",
+      "state": null,
+      "note": null
+    },
+    "LED_TEMP_PEAK_C10": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_TEMP_MIN_C10": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_VOLTAGE_PEAK_MV": {
+      "raw": 0,
+      "value": 0,
+      "units": "Millivolts",
+      "state": null,
+      "note": null
+    },
+    "LED_VOLTAGE_MIN_MV": {
+      "raw": 0,
+      "value": 0,
+      "units": "Millivolts",
+      "state": null,
+      "note": null
+    },
+    "PAD_AGG2": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_TOKEN_HOLDER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": "NONE",
+      "note": null
+    },
+    "OPT_TOKEN_SEQ": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "APP_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CMD_C_C": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CMD_RESULT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_ERR_C_C": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_ERR_DETAIL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_DRV_ERR_CODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LED_MASK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ANY_LED_ON": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_GROUP": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_MASK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "COMM_STATUS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_TEMPERATURE_C10": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_VOLTAGE_MV": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACTIVATE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TOTAL_OPERATING_TIME_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CURRENT_SESSION_TIME_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MAX_OPERATING_TIME_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_WRITE_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_READ_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "UART_TIMEOUT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "NAK_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "RETRY_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CRC_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "COMM_FAIL_CONSECUTIVE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FAULT_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SEU_DETECT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMG_FILE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMG_PRUNE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMG_DISK_FULL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMG_WRITE_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_IMG_BYTES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CAPTURE_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_IMG_SLOT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_IMG_SRC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ACTIVE_IMG_READ": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_BOOT_MODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SUBSYS_FLAGS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_MOD": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_TX_SEQ": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OPT_TX_TOTAL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PENDING_ASYNC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CAPTURE_SLOT_HW": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_CAPTURE_CAM": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_VIDEO_SLOT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_VIDEO_FRAMES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ASYNC_FAIL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BUSY_NAK_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "XFER_RETX_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "XFER_INCOMPLETE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "STRAY_FRAME_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LINK_BAUD_CODE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_POWER_STATE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_SESSION_RESULT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_BAD_BLOCKS": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SESSION_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_CAPACITY_MB": {
+      "raw": 65535,
+      "value": 65535,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SESSION_START_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_HARVEST_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_TIME_STATUS": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_TIME_SRC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_TIME_DRIFT_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_EPOCH": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_TICK_MS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_SAMPLE_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POLL_SAMPLE_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_TIME_SYNC_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_UPTIME_SEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TIME_SYNC_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "TIME_SYNC_FAIL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "STALE_FLAGS": {
+      "raw": 15,
+      "value": 15,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_IMG_FULL": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "STORAGE_MODE": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FLASH_STATE": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_STATE": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_INSERTED": {
+      "raw": 255,
+      "value": 255,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FLASH_IMG_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FLASH_IMG_FREE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_IMG_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SCRUB_CYCLES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SCRUB_ERRORS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVT_SYNC_PENDING": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EVT_SYNC_OVERFLOW": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SD_IMG_FREE_MB": {
+      "raw": 65535,
+      "value": 65535,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MIN_STACK_WATERMARK": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "FLASH_EVT_USED_KB": {
+      "raw": 65535,
+      "value": 65535,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_CAPTURE_TOTAL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BOARD_OPT_FRAME_TOTAL": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LOG_FILE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LOG_WRITE_ERR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "LAST_LOG_BYTES": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "IMG_CRC_FAIL_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POLL_INDEX": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "POLL_ENABLED": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CHILD_QUEUE_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CHILD_QUEUE_MAX": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CHILD_DROP_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

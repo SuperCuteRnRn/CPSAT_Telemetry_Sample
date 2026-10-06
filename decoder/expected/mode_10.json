@@ -1,0 +1,608 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_EPS2_PKT",
+  "bytes": 182,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818302,
+  "spacecraft_subseconds_raw": 33982,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 10,
+      "value": 10,
+      "units": null,
+      "state": "EPS2_DATA",
+      "note": null
+    },
+    "SHD_NAV_ANG_DEG_U8": {
+      "raw": 0,
+      "value": 0,
+      "units": "deg",
+      "state": null,
+      "note": null
+    },
+    "SHD_FLAGS8": {
+      "raw": 16,
+      "value": 16,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_CMD_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BCR_FRAME_SEQ": {
+      "raw": 2,
+      "value": 2,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_VOLTAGE": {
+      "raw": 2,
+      "value": 0.0645,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_A_TEMP": {
+      "raw": 1011,
+      "value": 228.7104,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_B_TEMP": {
+      "raw": 1016,
+      "value": 231.1924,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR1_SA1_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_VOLTAGE": {
+      "raw": 2,
+      "value": 0.0645,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_A_TEMP": {
+      "raw": 1012,
+      "value": 229.2068,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_B_TEMP": {
+      "raw": 1017,
+      "value": 231.6888,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR2_SA2_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_VOLTAGE": {
+      "raw": 2,
+      "value": 0.0199,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_A_TEMP": {
+      "raw": 1015,
+      "value": 230.696,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_B_TEMP": {
+      "raw": 1012,
+      "value": 229.2068,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR3_SA3_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_VOLTAGE": {
+      "raw": 254,
+      "value": 8.1936,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_A_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_B_TEMP": {
+      "raw": 671,
+      "value": 59.9344,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR4_SA4_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_VOLTAGE": {
+      "raw": 254,
+      "value": 8.1936,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_A_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_B_TEMP": {
+      "raw": 668,
+      "value": 58.4452,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR5_SA5_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_VOLTAGE": {
+      "raw": 255,
+      "value": 8.2258,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_B_TEMP": {
+      "raw": 672,
+      "value": 60.4308,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR6_SA6_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_VOLTAGE": {
+      "raw": 235,
+      "value": 7.5807,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR7_SA7_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_VOLTAGE": {
+      "raw": 254,
+      "value": 8.1936,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_A_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_B_CURRENT": {
+      "raw": 2,
+      "value": 0.002,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_A_TEMP": {
+      "raw": 668,
+      "value": 58.4452,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR8_SA8_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_VOLTAGE": {
+      "raw": 309,
+      "value": 9.9678,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_A_CURRENT": {
+      "raw": 378,
+      "value": 0.3695,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_B_CURRENT": {
+      "raw": 395,
+      "value": 0.3861,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_A_TEMP": {
+      "raw": 669,
+      "value": 58.9416,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_B_TEMP": {
+      "raw": 670,
+      "value": 59.438,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_A_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS_BCR9_SA9_B_SUN_DETECTOR": {
+      "raw": 2,
+      "value": 3.1945,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_TIMER_LIMIT": {
+      "raw": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "value": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "PDM_TIMER_CURRENT": {
+      "raw": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14,
+        13,
+        0,
+        12
+      ],
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14,
+        13,
+        0,
+        12
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "EPS2_SPARE": {
+      "raw": [
+        0,
+        0
+      ],
+      "value": [
+        0,
+        0
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SHD_NAV_ANG_MEAN_X10": {
+      "raw": 0,
+      "value": 0.0,
+      "units": "0.1deg",
+      "state": null,
+      "note": null
+    },
+    "SHD_NAV_ANG_MAX_X10": {
+      "raw": 0,
+      "value": 0.0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SHD_MAG_ANG_MEAN_X10": {
+      "raw": 0,
+      "value": 0.0,
+      "units": "0.1deg",
+      "state": null,
+      "note": null
+    },
+    "SHD_SCORED_LO": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SHD_FLAGS": {
+      "raw": 16,
+      "value": 16,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SHD_VER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SHD_PAD": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "profile": "cpsat-bcn-current-trs-lsb-v1",
+  "valid": true,
+  "packet": "BCN_BAT_PKT",
+  "bytes": 94,
+  "problems": [],
+  "field_notes": {},
+  "spacecraft_seconds_raw": 1475818202,
+  "spacecraft_subseconds_raw": 33977,
+  "fields": {
+    "BEACON_MODE": {
+      "raw": 5,
+      "value": 5,
+      "units": null,
+      "state": "BAT_DATA",
+      "note": null
+    },
+    "ADCS_TIME_FLAGS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "ADCS_DRIFT_MIN_U8": {
+      "raw": 0,
+      "value": 0,
+      "units": "min",
+      "state": null,
+      "note": null
+    },
+    "BAT_COMMAND_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_CMD_ERR_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_WDT_RESET_COUNTER": {
+      "raw": 17,
+      "value": 17,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_AUTO_SOFTWARE_RESET_COUNTER": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_MANUAL_RESET_COUNTER": {
+      "raw": 9,
+      "value": 9,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_HEATER_CONTROLLER_STATUS": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_BOARD_STATUS": {
+      "raw": 128,
+      "value": 128,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_LAST_ERROR": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "SPARE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_VERSION": {
+      "raw": 2102,
+      "value": 2102,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_GET_CHECKSUM": {
+      "raw": 13749,
+      "value": 13749,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATTERY_OUTPUT_VOLTAGE": {
+      "raw": 878,
+      "value": 7.8959,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATTERY_CURRENT_MAGNITUDE": {
+      "raw": 36,
+      "value": 527.8593,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BATTERY_CURRENT_DIRECTION": {
+      "raw": 8,
+      "value": 8,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "MOTHERBOARD_TEMPERATURE": {
+      "raw": 797,
+      "value": 23.6799,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CURRENT_DRAW_5V_BUS": {
+      "raw": 5,
+      "value": 6.6377,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OUTPUT_VOLTAGE_5V_BUS": {
+      "raw": 857,
+      "value": 5.0263,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "CURRENT_DRAW_3V3_BUS": {
+      "raw": 7,
+      "value": 9.2928,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "OUTPUT_VOLTAGE_3V3_BUS": {
+      "raw": 771,
+      "value": 3.3238,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DAUGHTERBOARD_TEMP": {
+      "raw": [
+        661,
+        660,
+        660,
+        658
+      ],
+      "value": [
+        24.2436,
+        23.846,
+        23.846,
+        23.0508
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "DAUGHTERBOARD_HEATER_STATUS": {
+      "raw": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "value": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_VOLTAGE_PEAK": {
+      "raw": 878,
+      "value": 7.8959,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_VOLTAGE_MIN": {
+      "raw": 855,
+      "value": 7.689,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_CURRENT_PEAK_MAG": {
+      "raw": 42,
+      "value": 615.8358,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_MOTHER_TEMP_PEAK": {
+      "raw": 797,
+      "value": 23.6799,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_MOTHER_TEMP_MIN": {
+      "raw": 796,
+      "value": 23.3075,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_DAUGHTER_TEMP_PEAK": {
+      "raw": [
+        661,
+        661,
+        661,
+        659
+      ],
+      "value": [
+        24.2436,
+        24.2436,
+        24.2436,
+        23.4484
+      ],
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_HEATER_ON_EDGE_COUNT": {
+      "raw": 4,
+      "value": 4,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_LAST_ERROR_LATCH": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_HK_STALE_TICKS": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_FILTER_STALE_CONSEC": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_FILTER_ENABLED": {
+      "raw": 1,
+      "value": 1,
+      "units": null,
+      "state": "ENABLED",
+      "note": null
+    },
+    "BAT_FDIR_LATCH": {
+      "raw": 0,
+      "value": "0x00",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_BOARD_STATUS_STICKY": {
+      "raw": 0,
+      "value": "0x00",
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_UNDERVOLT_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_TEMP_OOR_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_CRATE_EXCEED_COUNT": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    },
+    "BAT_FDIR_SPARE": {
+      "raw": 0,
+      "value": 0,
+      "units": null,
+      "state": null,
+      "note": null
+    }
+  }
+}
