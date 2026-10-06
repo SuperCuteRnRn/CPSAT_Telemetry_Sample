@@ -1,6 +1,5 @@
 {
   "provenance": "CPSat pre-launch indoor over-the-air ground test, not in orbit",
-  "date_utc": "2026-10-06",
   "frequency_hz": 437265000,
   "baud": 9600,
   "modulation": "BPSK-G3RUH",

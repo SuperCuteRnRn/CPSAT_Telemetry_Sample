@@ -40,24 +40,24 @@
   },
   "files": {
     "figures/bcn_validation.pdf": {
-      "bytes": 21693,
-      "sha256": "23d3be34b7ca2ad9b9f1aaaab6eda2e059da73c20057c60978b56fce19ac9b62"
+      "bytes": 21653,
+      "sha256": "eecc496820aeb26d19f7d1c717d9f1463d6490218dbb867c554ebd5f6200ce7b"
     },
     "figures/bcn_validation.png": {
       "bytes": 128676,
       "sha256": "da0e31f1f497ab33a73ed142637da48d9b6904013474500fc949f9af26a2b812"
     },
     "figures/bpsk_symbol_recovery.pdf": {
-      "bytes": 52042,
-      "sha256": "bd52dff97add178bb80c9bf25d08777a9984bb6c516d34eaa5244de25bb5d4e6"
+      "bytes": 52002,
+      "sha256": "4fe27de49f34894b242b46d888de7eb5d895a47788eab4033ad81d05b4bd6ee2"
     },
     "figures/bpsk_symbol_recovery.png": {
       "bytes": 369481,
       "sha256": "34a1aab960793de86e68b28cb0a4554b3643084c22647a1fb2dbb0d81f50350f"
     },
     "figures/continuous_reception.pdf": {
-      "bytes": 68607,
-      "sha256": "6c4c32fed0e9078b52fb458b752e601541edaeb2ff8dafa4849729d38e115f62"
+      "bytes": 68567,
+      "sha256": "ab82bfa11b65aad793f2ef59cf41581d7ffb60c583885caed9a9edce2c7703c9"
     },
     "figures/continuous_reception.png": {
       "bytes": 200192,
@@ -68,16 +68,16 @@
       "sha256": "3c63bcdfbfabd3785d21c321e497e233eaa6cf3a5fe1fcb3aa183af0eab0337d"
     },
     "figures/received_signal.pdf": {
-      "bytes": 137546,
-      "sha256": "724e1ba7f5be734af4289831a6ab0e1f1b3fff8887616f3295bf9d2adacda0e7"
+      "bytes": 137506,
+      "sha256": "78c8c5e2a490c95e8fa25d7962b447afc430ffd7bb038cfe0885af4770775bf1"
     },
     "figures/received_signal.png": {
       "bytes": 451125,
       "sha256": "854e7cadf01c121d4b26a9171cb9d7fc779dd0f4176ea037aa259ab13845a4e0"
     },
     "figures/receive_and_packet.pdf": {
-      "bytes": 35381,
-      "sha256": "3f2050bd4dead1eba2f52639473f0997990d6b8566fea476d7866d2b531a3f1c"
+      "bytes": 35341,
+      "sha256": "85d1d9b5afad24e4fa161f5361e35d0b38bd9f5610b7b60a1c3476b21f0537b5"
     },
     "figures/receive_and_packet.png": {
       "bytes": 109086,
@@ -104,16 +104,16 @@
       "sha256": "9f6cf5fa74d669660aa86623ad2fd7afac1e5102c0a5eebf3c46c203e8876c92"
     },
     "CPSat_BCN_Report.pdf": {
-      "bytes": 2126685,
-      "sha256": "17ea15b7aeeda5d0d3020911900cc5190af9144088fe2488453558b794438ed1"
+      "bytes": 2126214,
+      "sha256": "6d00b6c7a10e9c5a15b0106f8afb82814d19ef7b4e900bff198b0eb8a92503f6"
     },
     "report.html": {
-      "bytes": 52108,
-      "sha256": "dc1c22dbd17c18ddd55c26a376cf7a70ce1478e815257c9befcd6f816d0ecacc"
+      "bytes": 52041,
+      "sha256": "521f7a1923cc193e5b80ef331eae3c5adab79a8a3262f9972396c9847e8632db"
     },
     "index.html": {
-      "bytes": 52108,
-      "sha256": "dc1c22dbd17c18ddd55c26a376cf7a70ce1478e815257c9befcd6f816d0ecacc"
+      "bytes": 52041,
+      "sha256": "521f7a1923cc193e5b80ef331eae3c5adab79a8a3262f9972396c9847e8632db"
     }
   }
 }

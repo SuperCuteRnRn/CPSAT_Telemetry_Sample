@@ -4,7 +4,7 @@
 
 [Illustrated PDF](CPSat_BCN_Report.pdf) · [Web report](index.html)
 
-Ten beacon examples recorded during pre-launch indoor over-the-air ground tests of CPSat on 6 October 2026. These are not in-orbit observations. BCN modes 1 through 10 are included; no HK or command definitions are included.
+Ten beacon examples recorded during pre-launch indoor over-the-air ground tests of CPSat. These are not in-orbit observations. BCN modes 1 through 10 are included; no HK or command definitions are included.
 
 ## Radio and framing
 
