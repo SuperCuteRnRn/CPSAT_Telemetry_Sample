@@ -1,0 +1,1355 @@
+{
+  "offset_basis": "zero-based, inclusive displayed ranges; end_exclusive in numeric fields",
+  "packets": [
+    {
+      "mode": 1,
+      "packet": "BCN_INITIAL_PKT",
+      "frame_bytes_without_fcs": 184,
+      "ccsds_bytes": 168,
+      "ax25_information_range": "0x0010\u20130x00B7",
+      "ccsds_primary_hex": "09 03 C0 0B 00 A1",
+      "packet_length_field": 161,
+      "sequence_flags": 3,
+      "sequence_count": 11,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 0B",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 A1",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 8A",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 BD",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "01",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 184,
+          "frame_range": "0x0021\u20130x00B7",
+          "ccsds_range": "0x0011\u20130x00A7",
+          "bytes": 151,
+          "hex": "01 01 00 00 FE 00 00 FF 0C CF 00 00 00 00 80 00 07 FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 0A 01 02 03 04 05 06 07 08 09 0A 00 00 00 00 00 00 00 00 02 6D 03 21 00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 01 00 00 00 00 00 00 00 00 00 00 00 00 00 80 05 00 00 00 00 00 00 FF 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3B 0B 00 00 FF FF FF 00 00 01 00 00 00 01 00 1F 00 00 00 00 00 00 FF FF",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 0B 00 A1 57 F7 32 8A 84 BD 00 00 00 00 01 01 01 00 00 FE 00 00 FF 0C CF 00 00 00 00 80 00 07 FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 0A 01 02 03 04 05 06 07 08 09 0A 00 00 00 00 00 00 00 00 02 6D 03 21 00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 01 00 00 00 00 00 00 00 00 00 00 00 00 00 80 05 00 00 00 00 00 00 FF 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3B 0B 00 00 FF FF FF 00 00 01 00 00 00 01 00 1F 00 00 00 00 00 00 FF FF"
+    },
+    {
+      "mode": 2,
+      "packet": "BCN_COMMON_PKT",
+      "frame_bytes_without_fcs": 248,
+      "ccsds_bytes": 232,
+      "ax25_information_range": "0x0010\u20130x00F7",
+      "ccsds_primary_hex": "09 03 C0 0C 00 E1",
+      "packet_length_field": 225,
+      "sequence_flags": 3,
+      "sequence_count": 12,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 0C",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 E1",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 9E",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "82 B7",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "02",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 248,
+          "frame_range": "0x0021\u20130x00F7",
+          "ccsds_range": "0x0011\u20130x00E7",
+          "bytes": 215,
+          "hex": "01 00 00 00 00 00 00 01 E2 00 00 12 00 00 00 00 00 00 00 00 00 00 00 6D 03 22 00 5A 03 05 00 03 03 07 00 00 00 00 00 00 00 32 00 6E 00 97 FF C6 03 17 03 36 02 01 00 00 00 66 00 00 00 00 00 00 00 00 00 00 00 00 00 8C 35 02 00 8D 31 F7 57 21 01 00 00 21 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 02 00 01 CE 1E 00 47 00 00 62 00 1E 00 00 00 04 03 0B 00 AA 00 00 00 04 03 0B 00 A3 00 00 00 04 03 0B 00 B8 00 00 00 04 03 0B 00 B1 00 00 00 00 00 00 00 00 00 00 00 00 00 13 01 00 00 00 00 00 01 01 00 00 00 00 00 00 00 00 00 04 00 01 00 00 00 00 00 09 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 0C 00 E1 57 F7 32 9E 82 B7 00 00 00 00 02 01 00 00 00 00 00 00 01 E2 00 00 12 00 00 00 00 00 00 00 00 00 00 00 6D 03 22 00 5A 03 05 00 03 03 07 00 00 00 00 00 00 00 32 00 6E 00 97 FF C6 03 17 03 36 02 01 00 00 00 66 00 00 00 00 00 00 00 00 00 00 00 00 00 8C 35 02 00 8D 31 F7 57 21 01 00 00 21 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 02 00 01 CE 1E 00 47 00 00 62 00 1E 00 00 00 04 03 0B 00 AA 00 00 00 04 03 0B 00 A3 00 00 00 04 03 0B 00 B8 00 00 00 04 03 0B 00 B1 00 00 00 00 00 00 00 00 00 00 00 00 00 13 01 00 00 00 00 00 01 01 00 00 00 00 00 00 00 00 00 04 00 01 00 00 00 00 00 09 00 00 00"
+    },
+    {
+      "mode": 3,
+      "packet": "BCN_TEMP_PKT",
+      "frame_bytes_without_fcs": 128,
+      "ccsds_bytes": 112,
+      "ax25_information_range": "0x0010\u20130x007F",
+      "ccsds_primary_hex": "09 03 C0 0D 00 69",
+      "packet_length_field": 105,
+      "sequence_flags": 3,
+      "sequence_count": 13,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 0D",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 69",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 B2",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 B9",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "03",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 128,
+          "frame_range": "0x0021\u20130x007F",
+          "ccsds_range": "0x0011\u20130x006F",
+          "bytes": 95,
+          "hex": "80 00 00 00 00 1C 03 94 02 94 02 93 02 92 02 F3 03 F7 03 F5 03 F9 03 F7 03 F5 03 9D 02 9E 02 9E 02 9B 02 9D 02 9E 02 9E 02 9E 02 9C 02 9E 02 9D 02 9E 02 2B 03 23 03 FF FF C2 08 B7 08 00 01 00 00 00 00 00 00 00 00 1D 03 1C 03 94 02 93 02 2C 03 29 03 CA 08 01 00 02 00 00 00 F0 06 84 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 0D 00 69 57 F7 32 B2 84 B9 00 00 00 00 03 80 00 00 00 00 1C 03 94 02 94 02 93 02 92 02 F3 03 F7 03 F5 03 F9 03 F7 03 F5 03 9D 02 9E 02 9E 02 9B 02 9D 02 9E 02 9E 02 9E 02 9C 02 9E 02 9D 02 9E 02 2B 03 23 03 FF FF C2 08 B7 08 00 01 00 00 00 00 00 00 00 00 1D 03 1C 03 94 02 93 02 2C 03 29 03 CA 08 01 00 02 00 00 00 F0 06 84 00"
+    },
+    {
+      "mode": 4,
+      "packet": "BCN_EPS1_PKT",
+      "frame_bytes_without_fcs": 172,
+      "ccsds_bytes": 156,
+      "ax25_information_range": "0x0010\u20130x00AB",
+      "ccsds_primary_hex": "09 03 C0 0E 00 95",
+      "packet_length_field": 149,
+      "sequence_flags": 3,
+      "sequence_count": 14,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 0E",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 95",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 C6",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "86 C8",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "04",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 172,
+          "frame_range": "0x0021\u20130x00AB",
+          "ccsds_range": "0x0011\u20130x009B",
+          "bytes": 139,
+          "hex": "00 00 E2 0F 00 00 00 00 00 00 00 C0 02 C0 02 80 00 3D 00 71 03 14 00 10 00 02 00 7C 03 06 00 6B 03 05 00 5C 03 5B 00 06 03 02 00 02 00 02 00 02 00 02 00 02 00 5D 03 05 03 0F 00 06 03 02 00 02 00 02 00 02 00 02 00 02 00 03 00 06 00 02 00 03 00 2C 03 24 03 54 00 17 00 DC 07 00 00 02 00 FF 00 02 00 05 00 5B 00 06 00 6B 03 2C 03 2C 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 82 14 00 00 ED D1 00 00 48 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 0E 00 95 57 F7 32 C6 86 C8 00 00 00 00 04 00 00 E2 0F 00 00 00 00 00 00 00 C0 02 C0 02 80 00 3D 00 71 03 14 00 10 00 02 00 7C 03 06 00 6B 03 05 00 5C 03 5B 00 06 03 02 00 02 00 02 00 02 00 02 00 02 00 5D 03 05 03 0F 00 06 03 02 00 02 00 02 00 02 00 02 00 02 00 03 00 06 00 02 00 03 00 2C 03 24 03 54 00 17 00 DC 07 00 00 02 00 FF 00 02 00 05 00 5B 00 06 00 6B 03 2C 03 2C 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 82 14 00 00 ED D1 00 00 48 00 00 00"
+    },
+    {
+      "mode": 5,
+      "packet": "BCN_BAT_PKT",
+      "frame_bytes_without_fcs": 110,
+      "ccsds_bytes": 94,
+      "ax25_information_range": "0x0010\u20130x006D",
+      "ccsds_primary_hex": "09 03 C0 0F 00 57",
+      "packet_length_field": 87,
+      "sequence_flags": 3,
+      "sequence_count": 15,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 0F",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 57",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 DA",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 B9",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "05",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 110,
+          "frame_range": "0x0021\u20130x006D",
+          "ccsds_range": "0x0011\u20130x005D",
+          "bytes": 77,
+          "hex": "00 00 00 00 11 00 09 01 80 00 00 36 08 B5 35 6E 03 24 00 08 00 1D 03 05 00 59 03 07 00 03 03 95 02 94 02 94 02 92 02 02 00 02 00 02 00 02 00 6E 03 57 03 2A 00 1D 03 1C 03 95 02 95 02 95 02 93 02 04 00 00 00 00 01 00 00 00 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 0F 00 57 57 F7 32 DA 84 B9 00 00 00 00 05 00 00 00 00 11 00 09 01 80 00 00 36 08 B5 35 6E 03 24 00 08 00 1D 03 05 00 59 03 07 00 03 03 95 02 94 02 94 02 92 02 02 00 02 00 02 00 02 00 6E 03 57 03 2A 00 1D 03 1C 03 95 02 95 02 95 02 93 02 04 00 00 00 00 01 00 00 00 00 00 00"
+    },
+    {
+      "mode": 6,
+      "packet": "BCN_TRS_PKT",
+      "frame_bytes_without_fcs": 240,
+      "ccsds_bytes": 224,
+      "ax25_information_range": "0x0010\u20130x00EF",
+      "ccsds_primary_hex": "09 03 C0 10 00 D9",
+      "packet_length_field": 217,
+      "sequence_flags": 3,
+      "sequence_count": 16,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 10",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 D9",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 32 EE",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 B3",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "06",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 240,
+          "frame_range": "0x0021\u20130x00EF",
+          "ccsds_range": "0x0011\u20130x00DF",
+          "bytes": 207,
+          "hex": "00 00 00 AA 05 77 06 47 00 28 00 4E 06 35 01 43 00 4A 02 01 00 C4 08 B7 08 00 00 00 00 0C 0C 00 00 00 00 6E 01 00 00 6E 01 00 00 6E 01 0C 01 AB 02 00 00 00 00 00 00 00 00 00 00 D6 08 41 06 FA 05 2B 0E C1 03 CA 08 6E 01 0C 01 00 00 00 00 AB 39 02 00 11 AC 06 00 11 AC 06 00 4E 06 35 00 11 AC 06 00 4E 06 35 00 00 00 00 00 00 00 00 00 B8 08 00 00 00 00 D9 03 64 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8C 31 F7 57 8C 31 F7 57 2B 0E 4E 0C C1 03 CA 08 BE 08 C4 08 B7 08 C5 08 B8 08 D6 08 00 00 FA 05 00 00 00 00 12 01 00 00 00 00 00 00 C4 09 00 00 00 00 00 00 00 00 00 27 01 03 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 10 00 D9 57 F7 32 EE 84 B3 00 00 00 00 06 00 00 00 AA 05 77 06 47 00 28 00 4E 06 35 01 43 00 4A 02 01 00 C4 08 B7 08 00 00 00 00 0C 0C 00 00 00 00 6E 01 00 00 6E 01 00 00 6E 01 0C 01 AB 02 00 00 00 00 00 00 00 00 00 00 D6 08 41 06 FA 05 2B 0E C1 03 CA 08 6E 01 0C 01 00 00 00 00 AB 39 02 00 11 AC 06 00 11 AC 06 00 4E 06 35 00 11 AC 06 00 4E 06 35 00 00 00 00 00 00 00 00 00 B8 08 00 00 00 00 D9 03 64 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8C 31 F7 57 8C 31 F7 57 2B 0E 4E 0C C1 03 CA 08 BE 08 C4 08 B7 08 C5 08 B8 08 D6 08 00 00 FA 05 00 00 00 00 12 01 00 00 00 00 00 00 C4 09 00 00 00 00 00 00 00 00 00 27 01 03 00 00"
+    },
+    {
+      "mode": 7,
+      "packet": "BCN_ADCS_PKT",
+      "frame_bytes_without_fcs": 248,
+      "ccsds_bytes": 232,
+      "ax25_information_range": "0x0010\u20130x00F7",
+      "ccsds_primary_hex": "09 03 C0 1B 00 E1",
+      "packet_length_field": 225,
+      "sequence_flags": 3,
+      "sequence_count": 27,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 1B",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 E1",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 33 CA",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "85 1A",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "07",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 248,
+          "frame_range": "0x0021\u20130x00F7",
+          "ccsds_range": "0x0011\u20130x00E7",
+          "bytes": 215,
+          "hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 1B 00 E1 57 F7 33 CA 85 1A 00 00 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "mode": 8,
+      "packet": "BCN_LD_PKT",
+      "frame_bytes_without_fcs": 112,
+      "ccsds_bytes": 96,
+      "ax25_information_range": "0x0010\u20130x006F",
+      "ccsds_primary_hex": "09 03 C0 1C 00 59",
+      "packet_length_field": 89,
+      "sequence_flags": 3,
+      "sequence_count": 28,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 1C",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 59",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 33 DE",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "83 3E",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "08",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 112,
+          "frame_range": "0x0021\u20130x006F",
+          "ccsds_range": "0x0011\u20130x005F",
+          "bytes": 79,
+          "hex": "67 01 00 00 00 00 00 00 00 00 00 00 00 00 00 AA DD 25 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 1C 00 59 57 F7 33 DE 83 3E 00 00 00 00 08 67 01 00 00 00 00 00 00 00 00 00 00 00 00 00 AA DD 25 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "mode": 9,
+      "packet": "BCN_LED_PKT",
+      "frame_bytes_without_fcs": 218,
+      "ccsds_bytes": 202,
+      "ax25_information_range": "0x0010\u20130x00D9",
+      "ccsds_primary_hex": "09 03 C0 1D 00 C3",
+      "packet_length_field": 195,
+      "sequence_flags": 3,
+      "sequence_count": 29,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 1D",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 C3",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 33 F2",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 BE",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "09",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 218,
+          "frame_range": "0x0021\u20130x00D9",
+          "ccsds_range": "0x0011\u20130x00C9",
+          "bytes": 185,
+          "hex": "00 00 00 00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 00 00 FF FF 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF F0 00 00 00 00 00 00 00 00 00 00 00 00 00 0F FF F0 00 0F FF F0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 01 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 1D 00 C3 57 F7 33 F2 84 BE 00 00 00 00 09 00 00 00 00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 00 00 FF FF 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF F0 00 00 00 00 00 00 00 00 00 00 00 00 00 0F FF F0 00 0F FF F0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 01 00 00"
+    },
+    {
+      "mode": 10,
+      "packet": "BCN_EPS2_PKT",
+      "frame_bytes_without_fcs": 198,
+      "ccsds_bytes": 182,
+      "ax25_information_range": "0x0010\u20130x00C5",
+      "ccsds_primary_hex": "09 03 C0 14 00 AF",
+      "packet_length_field": 175,
+      "sequence_flags": 3,
+      "sequence_count": 20,
+      "fcs_present": false,
+      "fields": [
+        {
+          "name": "Destination address",
+          "start": 0,
+          "end_exclusive": 7,
+          "frame_range": "0x0000\u20130x0006",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 E0",
+          "group": "ax25"
+        },
+        {
+          "name": "Source address",
+          "start": 7,
+          "end_exclusive": 14,
+          "frame_range": "0x0007\u20130x000D",
+          "ccsds_range": "\u2014",
+          "bytes": 7,
+          "hex": "86 A0 A6 82 A8 62 61",
+          "group": "ax25"
+        },
+        {
+          "name": "Control (UI)",
+          "start": 14,
+          "end_exclusive": 15,
+          "frame_range": "0x000E",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "03",
+          "group": "ax25"
+        },
+        {
+          "name": "PID",
+          "start": 15,
+          "end_exclusive": 16,
+          "frame_range": "0x000F",
+          "ccsds_range": "\u2014",
+          "bytes": 1,
+          "hex": "F0",
+          "group": "ax25"
+        },
+        {
+          "name": "CCSDS packet ID / MID",
+          "start": 16,
+          "end_exclusive": 18,
+          "frame_range": "0x0010\u20130x0011",
+          "ccsds_range": "0x0000\u20130x0001",
+          "bytes": 2,
+          "hex": "09 03",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS sequence control",
+          "start": 18,
+          "end_exclusive": 20,
+          "frame_range": "0x0012\u20130x0013",
+          "ccsds_range": "0x0002\u20130x0003",
+          "bytes": 2,
+          "hex": "C0 14",
+          "group": "primary"
+        },
+        {
+          "name": "CCSDS packet length",
+          "start": 20,
+          "end_exclusive": 22,
+          "frame_range": "0x0014\u20130x0015",
+          "ccsds_range": "0x0004\u20130x0005",
+          "bytes": 2,
+          "hex": "00 AF",
+          "group": "primary"
+        },
+        {
+          "name": "Seconds (raw)",
+          "start": 22,
+          "end_exclusive": 26,
+          "frame_range": "0x0016\u20130x0019",
+          "ccsds_range": "0x0006\u20130x0009",
+          "bytes": 4,
+          "hex": "57 F7 33 3E",
+          "group": "time"
+        },
+        {
+          "name": "Subseconds (raw)",
+          "start": 26,
+          "end_exclusive": 28,
+          "frame_range": "0x001A\u20130x001B",
+          "ccsds_range": "0x000A\u20130x000B",
+          "bytes": 2,
+          "hex": "84 BE",
+          "group": "time"
+        },
+        {
+          "name": "Spare / alignment",
+          "start": 28,
+          "end_exclusive": 32,
+          "frame_range": "0x001C\u20130x001F",
+          "ccsds_range": "0x000C\u20130x000F",
+          "bytes": 4,
+          "hex": "00 00 00 00",
+          "group": "spare"
+        },
+        {
+          "name": "BCN mode (payload byte 0)",
+          "start": 32,
+          "end_exclusive": 33,
+          "frame_range": "0x0020",
+          "ccsds_range": "0x0010",
+          "bytes": 1,
+          "hex": "0A",
+          "group": "mode"
+        },
+        {
+          "name": "Remaining BCN payload",
+          "start": 33,
+          "end_exclusive": 198,
+          "frame_range": "0x0021\u20130x00C5",
+          "ccsds_range": "0x0011\u20130x00B5",
+          "bytes": 165,
+          "hex": "00 10 00 02 00 02 00 02 00 02 00 F3 03 F8 03 02 00 02 00 02 00 02 00 02 00 F4 03 F9 03 02 00 02 00 02 00 02 00 02 00 F7 03 F4 03 02 00 02 00 FE 00 02 00 02 00 9E 02 9F 02 02 00 02 00 FE 00 02 00 02 00 9E 02 9C 02 02 00 02 00 FF 00 02 00 02 00 9D 02 A0 02 02 00 02 00 EB 00 02 00 02 00 9D 02 9E 02 02 00 02 00 FE 00 02 00 02 00 9C 02 9E 02 02 00 02 00 35 01 7A 01 8B 01 9D 02 9E 02 02 00 02 00 FF FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 0E 0D 00 0C 00 00 00 00 00 00 00 00 00 00 10 00 00 00",
+          "group": "payload"
+        }
+      ],
+      "full_hex": "86 A0 A6 82 A8 62 E0 86 A0 A6 82 A8 62 61 03 F0 09 03 C0 14 00 AF 57 F7 33 3E 84 BE 00 00 00 00 0A 00 10 00 02 00 02 00 02 00 02 00 F3 03 F8 03 02 00 02 00 02 00 02 00 02 00 F4 03 F9 03 02 00 02 00 02 00 02 00 02 00 F7 03 F4 03 02 00 02 00 FE 00 02 00 02 00 9E 02 9F 02 02 00 02 00 FE 00 02 00 02 00 9E 02 9C 02 02 00 02 00 FF 00 02 00 02 00 9D 02 A0 02 02 00 02 00 EB 00 02 00 02 00 9D 02 9E 02 02 00 02 00 FE 00 02 00 02 00 9C 02 9E 02 02 00 02 00 35 01 7A 01 8B 01 9D 02 9E 02 02 00 02 00 FF FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 0E 0D 00 0C 00 00 00 00 00 00 00 00 00 00 10 00 00 00"
+    }
+  ]
+}

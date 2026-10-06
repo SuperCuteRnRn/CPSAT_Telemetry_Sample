@@ -1,0 +1,119 @@
+{
+  "generator": "illustrate_report.py with hex_layout.py",
+  "symbol_recovery": {
+    "source": "mode_02/iq_192k.wav",
+    "source_sha256": "43d2272992cc3a22033a32e49f2a5278a6ca1316f3e1b411326a5edc24eeaede",
+    "summary": "data/symbol_analysis.json",
+    "selected_symbols": 2004,
+    "matched_frame_sha256": "34b15e4f7f57102b68deafa5c7fdcb6b996874472c56f0edcd0a23fa3f0ca6e8"
+  },
+  "continuous_timeline": {
+    "source_sha256": "366ee7d228cbe92068d74812723722bdaa4a2a2ce3dc0fdcfafc8f442a920a96",
+    "summary": "data/timeline_summary.json",
+    "sample_rate_hz": 192000,
+    "averaging_window_s": 0.01,
+    "duration_s": 600,
+    "burst_count": 30
+  },
+  "versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.0",
+    "reportlab": "4.5.1"
+  },
+  "photo_source": {
+    "filename": "DSC01324.ARW",
+    "method": "Extract camera-embedded JPEG preview without re-encoding, cropping, or color edits",
+    "sha256": "3c63bcdfbfabd3785d21c321e497e233eaa6cf3a5fe1fcb3aa183af0eab0337d"
+  },
+  "signal_plot": {
+    "source": "mode_02/iq_192k.wav",
+    "sha256": "43d2272992cc3a22033a32e49f2a5278a6ca1316f3e1b411326a5edc24eeaede",
+    "reversed_amplitude_scale": 58.878597708026405,
+    "reversed_frequency_shift_hz": 870,
+    "sample_rate_hz": 192000,
+    "spectrogram_nperseg": 1024,
+    "spectrogram_noverlap": 768,
+    "welch_nperseg": 4096,
+    "level_reference": "digital; not calibrated dBm",
+    "derived_from_quantized_wav": true
+  },
+  "files": {
+    "figures/bcn_validation.pdf": {
+      "bytes": 21693,
+      "sha256": "23d3be34b7ca2ad9b9f1aaaab6eda2e059da73c20057c60978b56fce19ac9b62"
+    },
+    "figures/bcn_validation.png": {
+      "bytes": 128676,
+      "sha256": "da0e31f1f497ab33a73ed142637da48d9b6904013474500fc949f9af26a2b812"
+    },
+    "figures/bpsk_symbol_recovery.pdf": {
+      "bytes": 52042,
+      "sha256": "bd52dff97add178bb80c9bf25d08777a9984bb6c516d34eaa5244de25bb5d4e6"
+    },
+    "figures/bpsk_symbol_recovery.png": {
+      "bytes": 369481,
+      "sha256": "34a1aab960793de86e68b28cb0a4554b3643084c22647a1fb2dbb0d81f50350f"
+    },
+    "figures/continuous_reception.pdf": {
+      "bytes": 68607,
+      "sha256": "6c4c32fed0e9078b52fb458b752e601541edaeb2ff8dafa4849729d38e115f62"
+    },
+    "figures/continuous_reception.png": {
+      "bytes": 200192,
+      "sha256": "7d1fbad654f9ec8426ab7a8d14e11de8ab5e46306f7469d382c5bdd7ed1cafb5"
+    },
+    "figures/cpsat_satellite.jpg": {
+      "bytes": 602584,
+      "sha256": "3c63bcdfbfabd3785d21c321e497e233eaa6cf3a5fe1fcb3aa183af0eab0337d"
+    },
+    "figures/received_signal.pdf": {
+      "bytes": 137546,
+      "sha256": "724e1ba7f5be734af4289831a6ab0e1f1b3fff8887616f3295bf9d2adacda0e7"
+    },
+    "figures/received_signal.png": {
+      "bytes": 451125,
+      "sha256": "854e7cadf01c121d4b26a9171cb9d7fc779dd0f4176ea037aa259ab13845a4e0"
+    },
+    "figures/receive_and_packet.pdf": {
+      "bytes": 35381,
+      "sha256": "3f2050bd4dead1eba2f52639473f0997990d6b8566fea476d7866d2b531a3f1c"
+    },
+    "figures/receive_and_packet.png": {
+      "bytes": 109086,
+      "sha256": "83226d4006da2846aad5587cbb13afc03fcd4b7b9f74c69f4431e938c6c33374"
+    },
+    "data/burst_timing.csv": {
+      "bytes": 1121,
+      "sha256": "d05ffc145aa0aabe41f62e9fdb01deb09e74a5dfea3738d35ebdd406a5774337"
+    },
+    "data/continuous_power.csv": {
+      "bytes": 1129047,
+      "sha256": "245c8f8e7ff5c5d83d84918f4073683ba75539c4944e98c13474f701a199a6af"
+    },
+    "data/recovered_symbols.csv": {
+      "bytes": 101045,
+      "sha256": "69347ba2e9b83c042b32f6ba6f38955a2ffc52abb2e301ffe80d57ca37459816"
+    },
+    "data/symbol_analysis.json": {
+      "bytes": 1577,
+      "sha256": "e5177a8ae898145237a49c1ae7501ddcde5180c5ef04840da84614e89833836c"
+    },
+    "data/timeline_summary.json": {
+      "bytes": 7648,
+      "sha256": "9f6cf5fa74d669660aa86623ad2fd7afac1e5102c0a5eebf3c46c203e8876c92"
+    },
+    "CPSat_BCN_Report.pdf": {
+      "bytes": 2126685,
+      "sha256": "17ea15b7aeeda5d0d3020911900cc5190af9144088fe2488453558b794438ed1"
+    },
+    "report.html": {
+      "bytes": 52108,
+      "sha256": "dc1c22dbd17c18ddd55c26a376cf7a70ce1478e815257c9befcd6f816d0ecacc"
+    },
+    "index.html": {
+      "bytes": 52108,
+      "sha256": "dc1c22dbd17c18ddd55c26a376cf7a70ce1478e815257c9befcd6f816d0ecacc"
+    }
+  }
+}
